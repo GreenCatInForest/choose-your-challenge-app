@@ -1,6 +1,6 @@
 export const Form = () => {
   return (
-    <div className="w-10/12 mx-auto">
+    <div className="w-10/12 mx-auto my-6">
       <h2>Enter your topic and find a challenge! </h2>
       <form>
         <label

@@ -5,7 +5,7 @@ import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
-    <div className="">
+    <div className="w-full mx-auto">
       <Header />
       <Form />
       <Challenges />
