@@ -1,4 +1,4 @@
-export const Form = () => {
+export const Form = ({ searchQuery, setSearchQuery }) => {
   return (
     <div className="w-10/12 mx-auto my-6">
       <h2>Enter your topic and find a challenge! </h2>
