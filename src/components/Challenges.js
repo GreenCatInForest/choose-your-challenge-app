@@ -10,7 +10,7 @@ export const Challenges = () => {
         <ChallengeCard />
       </article>
       <article>
-        <button></button>
+        <button>Button</button>
         <ListChallenges />
       </article>
     </section>
