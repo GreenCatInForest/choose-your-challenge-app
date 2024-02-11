@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../data/data.json";
+import datas from "../data/data.json";
 
 import { Form } from "./Form";
 import { Challenges } from "./Challenges";
@@ -12,6 +12,7 @@ export const Main = () => {
     <div>
       <Form searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <Challenges
+        datas={datas}
         searchQuery={searchQuery}
         challenges={challenges}
         setChallenges={setChallenges}

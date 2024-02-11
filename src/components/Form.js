@@ -7,13 +7,10 @@ export const Form = ({ searchQuery, setSearchQuery }) => {
     setSearchTerm(event.target.value);
   };
 
-  console.log(searchTerm);
-
   const handleSearch = (event) => {
     event.preventDefault();
     setSearchQuery(searchTerm);
   };
-  console.log(searchQuery);
 
   return (
     <div className="w-10/12 mx-auto my-6">
