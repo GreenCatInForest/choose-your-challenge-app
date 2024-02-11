@@ -11,7 +11,11 @@ export const Main = () => {
   return (
     <div>
       <Form searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
-      <Challenges />
+      <Challenges
+        searchQuery={searchQuery}
+        challenges={challenges}
+        setChallenges={setChallenges}
+      />
     </div>
   );
 };

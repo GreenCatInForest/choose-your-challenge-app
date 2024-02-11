@@ -1,8 +1,24 @@
+import { useState } from "react";
+
 export const Form = ({ searchQuery, setSearchQuery }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  console.log(searchTerm);
+
+  const handleSearch = (event) => {
+    event.preventDefault();
+    setSearchQuery(searchTerm);
+  };
+  console.log(searchQuery);
+
   return (
     <div className="w-10/12 mx-auto my-6">
       <h2>Enter your topic and find a challenge! </h2>
-      <form>
+      <form onSubmit={handleSearch}>
         <label
           for="default-search"
           class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
@@ -29,6 +45,7 @@ export const Form = ({ searchQuery, setSearchQuery }) => {
           </div>
           <input
             type="search"
+            onChange={handleChange}
             id="default-search"
             class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="Search Challenges"
