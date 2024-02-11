@@ -1,6 +1,7 @@
 export const Form = () => {
   return (
-    <div className="">
+    <div className="w-10/12 mx-auto">
+      <h2>Enter your topic and find a challenge! </h2>
       <form>
         <label
           for="default-search"
@@ -30,7 +31,7 @@ export const Form = () => {
             type="search"
             id="default-search"
             class="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search Mockups, Logos..."
+            placeholder="Search Challenges"
             required
           ></input>
           <button
