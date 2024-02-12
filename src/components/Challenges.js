@@ -9,8 +9,8 @@ export const Challenges = ({
   setChallenges,
 }) => {
   useEffect(() => {
-    const regex = new RegExp(searchQuery, "gi");
     if (searchQuery) {
+      const regex = new RegExp(searchQuery, "gi");
       const matchedChallenges = datas.challenges.filter((data) => {
         for (const key in data) {
           if (typeof data[key] === "string" && data[key].match(regex)) {
@@ -19,12 +19,31 @@ export const Challenges = ({
         }
         return false;
       });
-      console.log(matchedChallenges);
-      console.log(challenges);
+      setChallenges(matchedChallenges);
     } else {
       console.log("Enter please a search query");
     }
   }, [searchQuery]);
+
+  useEffect(() => {
+    if (challenges.length) console.log(challenges);
+  }, [challenges]);
+
+  //   if (searchQuery) {
+  //     const matchedChallenges = datas.challenges.filter((data) => {
+  //       for (const key in data) {
+  //         if (typeof data[key] === "string" && data[key].match(regex)) {
+  //           return true;
+  //         }
+  //       }
+  //       return false;
+  //     });
+  //     console.log(matchedChallenges);
+  //     console.log(challenges);
+  //   } else {
+  //     console.log("Enter please a search query");
+  //   }
+  // }, [searchQuery]);
 
   // searchQuery?(setChallenges(matchedChallenges)):console.log("No search query");
   // console.log(challenges);
