@@ -10,7 +10,19 @@ export const Challenges = ({
 }) => {
   const [numberOfChallenges, setNumberOfChallenges] = useState(0);
   const challengesPerPage = 10;
-  const [numberOfPages, setNumberOfPages] = useState(0);
+  const [numberOfPages, setNumberOfPages] = useState(1);
+  const [pages, setPages] = useState([]);
+
+  const challengeLists = (array, count) => {
+    const itemsInArray = array.length;
+    const itemsInSet = count;
+    const setsTemp = [];
+    for (let i = 0; i < itemsInArray; i += itemsInSet) {
+      const sets = array.slice(i, i + itemsInSet);
+      setsTemp.push(sets);
+    }
+    setPages(setsTemp);
+  };
 
   useEffect(() => {
     if (searchQuery) {
@@ -32,13 +44,13 @@ export const Challenges = ({
 
   useEffect(() => {
     if (challenges.length) {
-      console.log(challenges);
+      // console.log(challenges);
     } else console.log("There is no matches. Try some another query please");
   }, [challenges]);
 
   useEffect(() => {
     if (numberOfChallenges) {
-      console.log(numberOfChallenges);
+      // console.log(numberOfChallenges);
       setNumberOfPages(numberOfChallenges / challengesPerPage);
     } else
       console.log(
@@ -48,10 +60,14 @@ export const Challenges = ({
 
   useEffect(() => {
     if (numberOfPages) {
-      console.log(numberOfPages);
+      challengeLists(challenges, challengesPerPage);
     } else
       console.log("There is no number of pages. Try some another query please");
   }, [numberOfPages]);
+
+  // render div for each number of pages with 10 challenges each
+  // split challenges, divide by 10
+  console.log(pages);
 
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
