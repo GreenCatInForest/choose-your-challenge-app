@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { ListChallenges } from "./ListChallenges";
+// import { ListChallenges } from "./ListChallenges";
 import { ChallengeCard } from "./ChallengeCard";
 
 export const Challenges = ({
@@ -69,11 +69,26 @@ export const Challenges = ({
 
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
-      <nav className="navChallengesPages">
+      <nav className="navChallengesPages flex sm:flex-col md:flex-row text-center items-center justify-center gap-6">
+        <p className="px-2 py-1 mx-1 text-white font-bold bg-blue-600 rounded dark:bg-blue-500 text-xl md:text-2xl lg:text-2xl">
+          Results:{" "}
+          {pages.length > 0 ? (
+            pages.length + `pages`
+          ) : (
+            <span className="text-base">
+              Here will be your challenges. Please enter a search query!
+            </span>
+          )}
+        </p>
         {pages.map((page, index) => (
           <ul key={index}>
             <li>
-              <button onClick={() => setCurrentPage(index)}>{index + 1}</button>
+              <button
+                className=" py-2 px-4 my-4 rounded-full  hover:shadow-md hover:shadow-slate-400  border-b-8 border-slate-600 border-opacity-20 hover:border-opacity-100 hover:border-slate-400"
+                onClick={() => setCurrentPage(index)}
+              >
+                {index + 1}
+              </button>
             </li>
           </ul>
         ))}
@@ -98,8 +113,8 @@ export const Challenges = ({
             </div>
           ))}
       </div>
-      <button className="">Display All</button>
-      <ListChallenges />
+      {/* <button className="">Display All</button>
+      <ListChallenges /> */}
     </div>
   );
 };
