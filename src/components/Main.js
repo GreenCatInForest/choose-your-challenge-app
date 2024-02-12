@@ -9,9 +9,10 @@ export const Main = () => {
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <main>
-      <div>
-        <h2>Features</h2>
+      <div className="features flex flex-col items-center gap-3 text-center">
+        <h2 className="mt-3">Features</h2>
         <p>6 types of group JS challenges from basic to complex</p>
+        {/* <p>Learn JavaScript by doing</p> */}
         <ul className="flex flex-col sm:flex-row items-center gap-3">
           <li>Basic Challenges</li>
           <li>Algorithm Challenges</li>
