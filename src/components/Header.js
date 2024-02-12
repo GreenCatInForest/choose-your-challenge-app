@@ -16,10 +16,6 @@ export const Header = () => {
         </div>
       </div>
       <h2>Practice your JS skills now</h2>
-      <ul className="flex flex-col sm:flex-row items-center gap-3">
-        <li>Basic Challenges</li>
-        <li>Algorithm Challenges</li>
-      </ul>
       <h3>Pick up a new challenge for your portfolio and achieve more! </h3>
     </div>
   );
