@@ -51,7 +51,6 @@ export const Challenges = ({
 
   useEffect(() => {
     if (numberOfChallenges) {
-      // console.log(numberOfChallenges);
       setNumberOfPages(numberOfChallenges / challengesPerPage);
     } else
       console.log(
