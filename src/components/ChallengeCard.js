@@ -1,5 +1,5 @@
 export const ChallengeCard = ({ challenge }) => {
-  challenge && console.log(challenge);
+  // challenge && console.log(challenge);
 
   return (
     <div className="challengeCard">
