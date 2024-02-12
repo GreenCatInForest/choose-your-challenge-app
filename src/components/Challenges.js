@@ -27,6 +27,7 @@ export const Challenges = ({
 
   useEffect(() => {
     if (challenges.length) console.log(challenges);
+    else console.log("There is no matches. Try some another query please");
   }, [challenges]);
 
   //   if (searchQuery) {
@@ -51,9 +52,7 @@ export const Challenges = ({
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
       <article className="flex flex-row flex-wrap justify-center gap-4 my-6">
-        <ChallengeCard />
-        <ChallengeCard />
-        <ChallengeCard />
+        <ChallengeCard challenges={challenges} />
       </article>
       <article>
         <button className="">Display All</button>
