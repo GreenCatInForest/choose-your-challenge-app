@@ -7,17 +7,19 @@ export const Challenges = ({
   challenges,
   setChallenges,
 }) => {
-  // Check if datas is an array
-  // Array.isArray(datas) ? console.log("yes") : console.log("no");
-
   if (searchQuery) {
     const regex = new RegExp(searchQuery, "gi");
-    console.log(regex);
 
-    // const matchedQueries = datas.challenges.map((data) =>
-    //   data.name.match(regex)
-    // );
-    // matchedQueries ? console.log(matchedQueries) : console.log("zero");
+    const matchedChallenges = datas.challenges.filter((data) => {
+      for (const key in data) {
+        if (typeof data[key] === "string" && data[key].match(regex)) {
+          return true;
+        }
+      }
+      return false;
+    });
+
+    console.log("Matched challenges:", matchedChallenges);
   }
 
   return (
