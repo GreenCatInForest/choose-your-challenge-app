@@ -5,8 +5,8 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Variable Types",
-      "challengechallengeTitle": "Creating Variables",
-      "challengeSubchallengeTitle": "Create variables and assign a values. Concatenate a string with a number",
+      "challengeTitle": "Creating Variables",
+      "challengeTitle": "Create variables and assign a values. Concatenate a string with a number",
       "challengeDescription": "Declare multiple variables without assigning values. Assign different types of values (string, number, boolean) to variables and print them. Concatenate a string with multiple numbers using template literals. Create a function that concatenates any data type with a string.",
       "level": "basic"
     },
@@ -16,7 +16,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Conditionals",
-      "challengechallengeTitle": "Is Array?",
+      "challengeTitle": "Is Array?",
       "challengeDescription": "Implement the function to check if a variable is a specific type (e.g., object, number). Modify the function to handle nested arrays and objects.",
       "level": "basic"
     },
@@ -26,7 +26,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Template literals",
-      "challengechallengeTitle": "Template literals",
+      "challengeTitle": "Template literals",
       "challengeDescription": "Use template literals to construct a dynamic string with variables.",
       "level": "basic"
     },
@@ -36,7 +36,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Function",
-      "challengechallengeTitle": "Reverse a string",
+      "challengeTitle": "Reverse a string",
       "challengeDescription": "Write a function to reverse a given string without using the built-in reverse() method",
       "level": "basic"
     },
@@ -45,7 +45,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Function",
-      "challengechallengeTitle": "The word with highest frequency",
+      "challengeTitle": "The word with highest frequency",
       "challengeDescription": "Create a function that takes a sentence as input and returns the word with the highest frequency. If there are multiple words with the same highest frequency, return the one that appears first. Count the occurrences of each character in a string.",
       "level": "basic"
     },
@@ -54,7 +54,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Function",
-      "challengechallengeTitle": "Variable Swap",
+      "challengeTitle": "Variable Swap",
       "challengeDescription": "Write a function that takes two variables a and b and swaps their values without using a temporary variable.",
       "level": "basic"
     },
@@ -63,7 +63,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Function and Data Types",
-      "challengechallengeTitle": "Check Leap Year",
+      "challengeTitle": "Check Leap Year",
       "challengeDescription": "Write a function that takes a year as input and returns true if it's a leap year, otherwise false. A leap year is divisible by 4, but not by 100, unless it is divisible by 400."
     },
 
@@ -72,7 +72,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Variable and Data Types",
-      "challengechallengeTitle": "Difference between == and ===",
+      "challengeTitle": "Difference between == and ===",
       "challengeDescription": "Compare two variables with different values and types using both == and === to see how they behave differently. Explore the difference between == and === when comparing objects and arrays.",
       "level": "basic"
     },
@@ -81,7 +81,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Variable and Data Types",
-      "challengechallengeTitle": "Variable converter",
+      "challengeTitle": "Variable converter",
       "challengeDescription": "Write a function that converts a string containing a number to an actual number using the appropriate equality operator",
       "level": "basic"
     },
@@ -90,7 +90,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Variable and Data Types",
-      "challengechallengeTitle": "PI",
+      "challengeTitle": "PI",
       "challengeDescription": "Declare a constant variable for the value of pi and use it to calculate the circumference of a circle.",
       "level": "basic"
     },
@@ -99,7 +99,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Data Types and string methods",
-      "challengechallengeTitle": "Has a?",
+      "challengeTitle": "Has a?",
       "challengeDescription": "Write a function that checks if a string contains the letter 'a' using the includes() method or indexOf()."
     },
     {
@@ -107,7 +107,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Data Types, Maths, numbers",
-      "challengechallengeTitle": "Decimal into binary",
+      "challengeTitle": "Decimal into binary",
       "challengeDescription": "Convert a decimal number to a binary representation.",
       "level": "basic"
     },
@@ -116,7 +116,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Data Types, NaN, undefined, null, Infinity",
-      "challengechallengeTitle": "Different data types of NaN",
+      "challengeTitle": "Different data types of NaN",
       "challengeDescription": "Explore the different data types of NaN, undefined, null, and Infinity.",
       "level": "basic"
     },
@@ -125,7 +125,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Data Types, objects",
-      "challengechallengeTitle": "Destructure an object",
+      "challengeTitle": "Destructure an object",
       "challengeDescription": "Destructure an object and extract its properties into variables."
     },
     {
@@ -133,7 +133,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Data Types, converting data types",
-      "challengechallengeTitle": "Convert a string containing numbers to an array of integers",
+      "challengeTitle": "Convert a string containing numbers to an array of integers",
       "challengeDescription": "Implement a function that converts a string containing numbers to an array of integers.",
       "level": "basic"
     },
@@ -142,7 +142,7 @@
       "groupDescription": "All about variables and data types",
       "challengeType": "Basic challenges",
       "challengeSubtopic": "Variables, undefined and null",
-      "challengechallengeTitle": "Undefined vs Null:",
+      "challengeTitle": "Undefined vs Null:",
       "challengeDescription": "Declare a variable value without initializing it. Print the type and value of value. Then, assign null to value and print its type and value. Expected Output: undefined, undefined; object, null",
       "level": "basic"
     },
@@ -151,7 +151,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Variable Types, System Thinking",
-      "challengechallengeTitle": "Product Catalog System",
+      "challengeTitle": "Product Catalog System",
       "challengeDescription": "Build a product catalog system for an e-commerce platform. Define variables representing product names, prices, and categories. Initialize them with sample data. Demonstrate different data types for product information.",
       "level": "complex"
     },
@@ -160,7 +160,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Variable Types and System Thinking",
-      "challengechallengeTitle": "User Profiles",
+      "challengeTitle": "User Profiles",
       "challengeDescription": "Develop a user profiles system for a social networking site. Declare variables for user names, ages, and interests. Initialize them with various data types, including strings, numbers, and arrays.",
       "level": "complex"
     },
@@ -169,7 +169,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Variable Types and System Thinking",
-      "challengechallengeTitle": "Order Tracking",
+      "challengeTitle": "Order Tracking",
       "challengeDescription": "Create an order tracking system for a restaurant. Declare variables for order numbers, menu items, and quantities. Initialize them with relevant data types, such as integers and arrays.",
       "level": "complex"
     },
@@ -178,7 +178,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Variable Types and System Thinking",
-      "challengechallengeTitle": "Sensor Data",
+      "challengeTitle": "Sensor Data",
       "challengeDescription": "Design a system for collecting sensor data in a smart home. Declare variables for temperature, humidity, and motion detection status. Initialize them with appropriate data types, like floats and booleans.",
       "level": "complex"
     },
@@ -187,7 +187,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Variable Types",
-      "challengechallengeTitle": "Customer Data",
+      "challengeTitle": "Customer Data",
       "challengeDescription": "Design a CRM system for a sales team. Declare variables for customer names, contact details, and purchase history. Initialize them with diverse data types, including strings, objects, and arrays.",
       "level": "basic"
     },
@@ -196,7 +196,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Undefined and Null",
-      "challengechallengeTitle": "Data Initialization",
+      "challengeTitle": "Data Initialization",
       "challengeDescription": "Develop a data entry system where users input personal details. Use undefined for optional fields that haven't been filled out yet, and null for intentionally empty fields.",
       "level": "basic"
     },
@@ -205,7 +205,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Undefined and Null",
-      "challengechallengeTitle": "Default Values, User Preferences",
+      "challengeTitle": "Default Values, User Preferences",
       "challengeDescription": "Create a function that accepts parameters for a user's preferences. Use null to indicate preferences that haven't been set yet, and provide default values for undefined preferences.",
       "level": "complex"
     },
@@ -214,7 +214,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Validate User Inputs",
-      "challengechallengeTitle": "Checking for Values",
+      "challengeTitle": "Checking for Values",
       "challengeDescription": "Write a script that validates user inputs in a form. Check for undefined and null values, and provide appropriate error messages for missing or incomplete data.",
       "level": "complex"
     },
@@ -223,7 +223,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Build Management System",
-      "challengechallengeTitle": "Object Properties",
+      "challengeTitle": "Object Properties",
       "challengeDescription": "Build an employee management system. Use undefined to represent missing properties, such as phone numbers, and set properties to null to indicate intentionally empty values.",
       "level": "complex"
     },
@@ -232,7 +232,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Undefined and Null",
-      "challengechallengeTitle": "Database Handling",
+      "challengeTitle": "Database Handling",
       "challengeDescription": "Design a database interface for an application. Use null to signify missing data when querying the database, and handle undefined values during data insertion.",
       "level": "complex"
     },
@@ -241,7 +241,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Maths Constants",
+      "challengeTitle": "Maths Constants",
       "challengeDescription": "Create a math library that provides constants like pi and e. Declare these constants as const variables and use them in mathematical calculations throughout the library. Declare a constant variable PI and assign the value of the mathematical constant π (pi). Use it to calculate the circumference of a circle given its radius. Print the result.",
       "level": "complex"
     },
@@ -250,7 +250,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Configuration Settings",
+      "challengeTitle": "Configuration Settings",
       "challengeDescription": "Develop a configuration manager for a web application. Use const to define configuration settings that should remain constant during the application's lifecycle, such as API endpoints and default values.",
       "level": "complex"
     },
@@ -259,7 +259,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Physical Constants",
+      "challengeTitle": "Physical Constants",
       "challengeDescription": "Build a physics simulation application. Declare constants for physical quantities like the speed of light, gravitational constant, and Planck's constant. Use these constants in simulations and calculations. Declare a constant variable SPEED_OF_LIGHT and assign the value of the speed of light in meters per second (299,792,458 m/s). Use it to calculate the time it takes for light to travel a certain distance. ",
       "level": "complex"
     },
@@ -268,7 +268,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Conversion Factors",
+      "challengeTitle": "Conversion Factors",
       "challengeDescription": "Design a unit conversion utility. Declare constants for conversion factors between different units, such as length, weight, and temperature. Ensure these constants cannot be modified during runtime.",
       "level": "complex"
     },
@@ -277,7 +277,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Application-wide Parameters",
+      "challengeTitle": "Application-wide Parameters",
       "challengeDescription": "Create a global configuration object for a multi-module application. Define const variables to hold parameters shared across the application, such as authentication settings and API keys.",
       "level": "complex"
     },
@@ -286,7 +286,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Configurable Constants",
+      "challengeTitle": "Configurable Constants",
       "challengeDescription": "Define a constant variable MAX_USERS and set its value to 100. Use it in a function that simulates user registration. If the number of users exceeds MAX_USERS, display a message indicating that registration is closed.",
       "level": "complex"
     },
@@ -295,7 +295,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "Time Constants",
+      "challengeTitle": "Time Constants",
       "challengeDescription": "Create a constant variable SECONDS_PER_MINUTE and set it to 60. Write a function that converts minutes to seconds using this constant. Test the function with various values.",
       "level": "complex"
     },
@@ -304,7 +304,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Constants",
-      "challengechallengeTitle": "API Keys and Constants",
+      "challengeTitle": "API Keys and Constants",
       "challengeDescription": "Imagine you're building an application that interacts with an external API. Declare a constant variable API_KEY and assign it a sample API key string. Use it in your API requests for authentication.",
       "level": "complex"
     },
@@ -313,7 +313,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Local vs. Global",
+      "challengeTitle": "Local vs. Global",
       "challengeDescription": "Declare a global variable outside of any function and a local variable inside a function. Print both variables within and outside of the function to observe their scope behavior.",
       "level": "complex"
     },
@@ -322,7 +322,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Block-Level Variables",
+      "challengeTitle": "Block-Level Variables",
       "challengeDescription": "Write a function that uses a block-level variable declared with the let keyword. Access this variable both inside and outside of the block to demonstrate block-level scope.",
       "level": "complex"
     },
@@ -331,7 +331,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Scope Chain",
+      "challengeTitle": "Scope Chain",
       "challengeDescription": "Create a nested function that references a variable from its parent function's scope. Illustrate how the scope chain works by accessing the variable from within the nested function.",
       "level": "complex"
     },
@@ -340,7 +340,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Function and Global Variables",
+      "challengeTitle": "Function and Global Variables",
       "challengeDescription": "Declare a variable inside a function and another variable with the same name outside of any function (global scope). Print both variables and explain how JavaScript handles variable naming conflicts.",
       "level": "complex"
     },
@@ -349,7 +349,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Lexical Scope",
+      "challengeTitle": "Lexical Scope",
       "challengeDescription": "Implement a function within another function. Declare a variable in the outer function's scope and try to access it from the inner function. Explain the concept of lexical scope.",
       "level": "complex"
     },
@@ -359,7 +359,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Variable Shadowing",
+      "challengeTitle": "Variable Shadowing",
       "challengeDescription": "Create a scenario where a local variable has the same name as a global variable. Demonstrate how the local variable takes precedence within its scope, hiding the global variable.",
       "level": "complex"
     },
@@ -368,7 +368,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Scope and Block-Level Variables",
-      "challengechallengeTitle": "Closures and Scope",
+      "challengeTitle": "Closures and Scope",
       "challengeDescription": "Develop a closure that accesses variables from its parent function's scope. Showcase how closures retain access to variables even after the parent function has completed execution.",
       "level": "complex"
     },
@@ -377,7 +377,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Hoisting",
-      "challengechallengeTitle": "Variable Hoisting",
+      "challengeTitle": "Variable Hoisting",
       "challengeDescription": "Declare a variable x and initialize it with a value. Write a function that tries to access the variable before it's declared within the function. Explain the concept of variable hoisting and the expected behavior.",
       "level": "complex"
     },
@@ -386,7 +386,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Hoisting",
-      "challengechallengeTitle": "Function Hoisting:",
+      "challengeTitle": "Function Hoisting:",
       "challengeDescription": "Declare a function multiply that takes two parameters and returns their product. Call the function before it's declared and explain how function hoisting allows this behavior.",
       "level": "complex"
     },
@@ -395,7 +395,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Hoisting",
-      "challengechallengeTitle": "Block-Level Hoisting",
+      "challengeTitle": "Block-Level Hoisting",
       "challengeDescription": "Inside a block of code (using curly braces), declare a variable y and initialize it with a value. Print the value of y within the block and outside of the block. Explain the behavior of block-level hoisting.",
       "level": "complex"
     },
@@ -404,7 +404,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Coding Style and Best Practices",
-      "challengechallengeTitle": "Avoid Global Variables",
+      "challengeTitle": "Avoid Global Variables",
       "challengeDescription": "Create a code snippet that demonstrates the dangers of using global variables. Show how global variables can lead to unintended side effects and how to avoid them using local scope.",
       "level": "complex"
     },
@@ -413,7 +413,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Coding Style and Best Practices",
-      "challengechallengeTitle": "Modularization",
+      "challengeTitle": "Modularization",
       "challengeDescription": "Write a program that calculates the area of different shapes. Refactor the program by separating the area calculation logic into individual functions for each shape.",
       "level": "complex"
     },
@@ -422,7 +422,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Common Mistakes and Debugging",
-      "challengechallengeTitle": "Debugging Tools",
+      "challengeTitle": "Debugging Tools",
       "challengeDescription": "Create a code snippet with a logical error (e.g., incorrect formula for calculating area). Use browser developer tools to set breakpoints and step through the code to identify and fix the error.",
       "level": "complex"
     },
@@ -431,7 +431,7 @@
       "groupDescription": "Real world challenges",
       "challengeType": "Relevant to real industries",
       "challengeSubtopic": "Common Mistakes and Debugging",
-      "challengechallengeTitle": "Undefined Functions",
+      "challengeTitle": "Undefined Functions",
       "challengeDescription": "Write a function calculateArea that calculates the area of a rectangle. Call the function with incorrect parameters and explain the error message that occurs.",
       "level": "complex"
     },
@@ -441,7 +441,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "Common Mistakes and Debugging",
-      "challengechallengeTitle": "Undefined Functions",
+      "challengeTitle": "Undefined Functions",
       "challengeDescription": "Write a function calculateArea that calculates the area of a rectangle. Call the function with incorrect parameters and explain the error message that occurs.",
       "level": "basic"
     },
@@ -451,7 +451,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "Ternary Operator",
-      "challengechallengeTitle": "Positive or negative?",
+      "challengeTitle": "Positive or negative?",
       "challengeDescription": "Use the ternary operator to check if a number is positive or negative.",
       "level": "basic"
     },
@@ -460,7 +460,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "Bitwise Operators",
-      "challengechallengeTitle": "Manipulate binary values",
+      "challengeTitle": "Manipulate binary values",
       "challengeDescription": "Use the bitwise operators (&, |, ^, <<, >>) to manipulate binary values. Implement a function that converts a decimal number to its binary representation using bitwise operations.",
       "level": "basic"
     },
@@ -469,7 +469,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "logical NOT Operators",
-      "challengechallengeTitle": "NOT operation",
+      "challengeTitle": "NOT operation",
       "challengeDescription": "Create a function that performs a logical NOT operation without using the ! operator.",
       "level": "basic"
     },
@@ -479,7 +479,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "logical in operator",
-      "challengechallengeTitle": "If a property exists?",
+      "challengeTitle": "If a property exists?",
       "challengeDescription": "Use the in operator to check if a property exists in an object."
     },
     {
@@ -487,7 +487,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "modulus operator",
-      "challengechallengeTitle": "Even or Odd",
+      "challengeTitle": "Even or Odd",
       "challengeDescription": "Write a function to check if a given number is even or odd using the modulus operator."
     },
     {
@@ -495,7 +495,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "comparison operator",
-      "challengechallengeTitle": "Are equal?",
+      "challengeTitle": "Are equal?",
       "challengeDescription": "Create a function that checks if two numbers are equal using a comparison operator."
     },
     {
@@ -503,7 +503,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "comparison operator",
-      "challengechallengeTitle": "Is prime?",
+      "challengeTitle": "Is prime?",
       "challengeDescription": "Implement a function that checks if a given number is prime or not."
     },
     {
@@ -511,7 +511,7 @@
       "groupDescription": "Operators (Arithmetic, Comparison, Logical)",
       "challengeType": "Basic: Operators",
       "challengeSubtopic": "boolean values",
-      "challengechallengeTitle": "Combine boolean values",
+      "challengeTitle": "Combine boolean values",
       "challengeDescription": "Write a function that combines two boolean values using a logical operator and returns the result."
     },
 
@@ -520,7 +520,7 @@
       "groupDescription": "Real portfolio challenges",
       "challengeType": "Complex system",
       "challengeSubtopic": "Login system",
-      "challengechallengeTitle": "Login system",
+      "challengeTitle": "Login system",
       "challengeDescription": "Build a login system that checks if the username and password match predefined values using logical operators. Implement a toggle button that toggles the visibility of a password input field. Create a dynamic user profile card that displays the user's name, age, and favorite color. Implement a form validator that checks if the user's input is valid (e.g., email, phone number, password complexity). Implement a login form with different user roles (admin, user) that displays different challengeDescription based on the user's role."
     },
     {
@@ -528,7 +528,7 @@
       "groupDescription": "Real portfolio challenges",
       "challengeType": "Variable converters",
       "challengeSubtopic": "Temperature converter",
-      "challengechallengeTitle": "Celsius converter",
+      "challengeTitle": "Celsius converter",
       "challengeDescription": "Build a temperature converter that converts Celsius to Fahrenheit and vice versa."
     },
     {
@@ -544,7 +544,7 @@
       "groupDescription": "Real portfolio challenges",
       "challengeType": "Variable converters",
       "challengeSubtopic": "Temperature converter",
-      "challengeTitle": "Countdown timer",
+      "challengeTitle": "Timer: set a target",
       "challengeDescription": "Create a countdown timer that allows the user to set a target date and time."
     },
     {
@@ -648,7 +648,7 @@
       "groupDescription": "Real portfolio challenges",
       "challengeType": "Variable converters",
       "challengeSubtopic": "Real App",
-      "challengeTitle": "Countdown timer",
+      "challengeTitle": "Timer: Time Remaining",
       "challengeDescription": "Create a countdown timer that displays different messages based on the time remaining (e.g., Almost there, Time's up!)."
     },
     {
@@ -837,244 +837,244 @@
       "image": "./images/surfing-g130578680_1280.jpg",
       "projectLink": "./challenges/startersJsChallenges.html",
       "projectGithubLink": "path/to/projectGithubLink",
-      "challengechallengeTitle": "Weekday or Weekend",
+      "challengeTitle": "Weekday or Weekend",
       "challengeDescription": "Implement a function that takes a day of the week as input and returns a message based on whether it's a weekday or weekend"
     },
     {
-      "challengechallengeTitle": "Number checker",
+      "challengeTitle": "Number checker",
       "challengeDescription": "Write a function that checks if a number is positive, negative, or zero and returns the result."
     },
     {
-      "challengechallengeTitle": "Type checker",
+      "challengeTitle": "Type checker",
       "challengeDescription": "Write a function that checks a type of the variable. Use the typeof operator to check the data type of different variables (string, number, array, etc.)."
     },
     {
-      "challengechallengeTitle": "Convert a grades",
+      "challengeTitle": "Convert a grades",
       "challengeDescription": "Implement a function that converts a numerical grade to a letter grade (A, B, C, etc.) using switch statements."
     },
     {
-      "challengechallengeTitle": "If a string contains the letter 'a'",
+      "challengeTitle": "If a string contains the letter 'a'",
       "challengeDescription": "Write a function that checks if a string contains the letter 'a' and prints a message accordingly"
     },
     {
-      "challengechallengeTitle": "Ticket price",
+      "challengeTitle": "Ticket price",
       "challengeDescription": "Create a function that calculates the ticket price based on age using if/else statements. Create a function that calculates the discounted price of a ticket based on a percentage off."
     },
     {
-      "challengechallengeTitle": "Ascending/Descending order",
+      "challengeTitle": "Ascending/Descending order",
       "challengeDescription": "Create a function that sorts three numbers in ascending order using if/else statements."
     },
     {
-      "challengechallengeTitle": "Seasons",
+      "challengeTitle": "Seasons",
       "challengeDescription": "Write a function that determines the season based on a given month using switch statements."
     },
     {
-      "challengechallengeTitle": "Check a given string",
+      "challengeTitle": "Check a given string",
       "challengeDescription": "Write a function that checks if a given string is apple, orange, banana."
     },
     {
-      "challengechallengeTitle": "&& and || operators",
+      "challengeTitle": "&& and || operators",
       "challengeDescription": "Use the && and || operators to perform multiple condition checks."
     },
     {
-      "challengechallengeTitle": "Numbers into Grades",
+      "challengeTitle": "Numbers into Grades",
       "challengeDescription": "Implement a function that assigns a grade (A, B, C, etc.) based on a numerical score."
     },
     {
-      "challengechallengeTitle": "Ascending order using conditional statements",
+      "challengeTitle": "Ascending order using conditional statements",
       "challengeDescription": "Create a function that sorts three numbers in ascending order using conditional statements."
     },
     {
-      "challengechallengeTitle": "Determine the time of day",
+      "challengeTitle": "Determine the time of day",
       "challengeDescription": "Implement a function to determine the time of day (morning, afternoon, evening) based on the current hour."
     },
     {
-      "challengechallengeTitle": "The larger",
+      "challengeTitle": "The larger",
       "challengeDescription": "Use the conditional (ternary) operator to find the larger of two numbers."
     },
     {
-      "challengechallengeTitle": "Checks if a given string contains the letter",
+      "challengeTitle": "Checks if a given string contains the letter",
       "challengeDescription": "Write a function that checks if a given string contains the letter 'e' and 't' using a switch statement."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
-      "challengechallengeTitle": "Type of a triangle",
+      "challengeTitle": "Type of a triangle",
       "challengeDescription": "Create a function that determines the type of a triangle (scalene, isosceles, equilateral) based on side lengths."
     },
     {
       "challengeTitle": "Basic: Loops",
       "challengeSubtopic": "Loops (for, while)",
-      "challengechallengeTitle": "Calculate the factorial",
+      "challengeTitle": "Calculate the factorial",
       "challengeDescription": "Create a function to calculate the factorial of a given number using a for loop."
     },
     {
-      "challengechallengeTitle": "Sum of all prime numbers ",
+      "challengeTitle": "Sum of all prime numbers ",
       "challengeDescription": "Create a function to find the sum of all prime numbers up to a given number."
     },
     {
-      "challengechallengeTitle": "Print numbers",
+      "challengeTitle": "Print numbers",
       "challengeDescription": "Write a function that prints numbers from 1 to 10 using a for loop."
     },
     {
-      "challengechallengeTitle": "Number of vowels",
+      "challengeTitle": "Number of vowels",
       "challengeDescription": "Write a function that counts the number of vowels in a string using a for loop."
     },
     {
-      "challengechallengeTitle": "Multiplication table",
+      "challengeTitle": "Multiplication table",
       "challengeDescription": "Create a function that prints the multiplication table of a given number using a while loop."
     },
     {
-      "challengechallengeTitle": "Print the elements",
+      "challengeTitle": "Print the elements",
       "challengeDescription": "Implement a function that prints the elements of an array using a for loop. Create a function that prints a pattern of stars using nested for loops."
     },
     {
-      "challengechallengeTitle": "Sum of all numbers from 1",
+      "challengeTitle": "Sum of all numbers from 1",
       "challengeDescription": "Write a function that calculates the sum of all numbers from 1 to a given number using a for loop."
     },
     {
-      "challengechallengeTitle": "Generate a password",
+      "challengeTitle": "Generate a password",
       "challengeDescription": "Write a function that generates a random password of a given length using a while loop and Math.random()."
     },
     {
-      "challengechallengeTitle": "First prime number greater than a given number",
+      "challengeTitle": "First prime number greater than a given number",
       "challengeDescription": "Implement a function that finds the first prime number greater than a given number using a for loop."
     },
     {
-      "challengechallengeTitle": "Key-value pairs",
+      "challengeTitle": "Key-value pairs",
       "challengeDescription": "Use a for loop to iterate through an object and print its key-value pairs."
     },
     {
-      "challengechallengeTitle": "The sum of digits",
+      "challengeTitle": "The sum of digits",
       "challengeDescription": "Write a function that calculates the sum of digits in a given number using a while loop and % operator."
     },
     {
-      "challengechallengeTitle": "Skip multiples",
+      "challengeTitle": "Skip multiples",
       "challengeDescription": "Create a function to print numbers from 1 to 100 but skip multiples of 5 using continue statement."
     },
     {
-      "challengechallengeTitle": "Dynamic table",
+      "challengeTitle": "Dynamic table",
       "challengeDescription": "Implement a dynamic table that displays data from an array using a for loop and nested loops for rows and columns."
     },
     {
-      "challengechallengeTitle": "",
+      "challengeTitle": "",
       "challengeDescription": ""
     },
     {
       "challengeTitle": "Basic: Functions",
       "challengeSubtopic": "Declaration, expression, arrow functions",
-      "challengechallengeTitle": "Arrow Function",
+      "challengeTitle": "Arrow Function",
       "challengeDescription": " Write a function that takes two numbers as input and returns their product using an arrow function."
     },
     {
-      "challengechallengeTitle": "Reverse the order of words",
+      "challengeTitle": "Reverse the order of words",
       "challengeDescription": "Write a function to reverse the order of words in a sentence."
     },
     {
-      "challengechallengeTitle": "Roman numerals",
+      "challengeTitle": "Roman numerals",
       "challengeDescription": "Implement a function to convert a number to Roman numerals. Write a function to convert a Roman numeral to an integer."
     },
     {
-      "challengechallengeTitle": "Is empty?",
+      "challengeTitle": "Is empty?",
       "challengeDescription": "Create a function that checks if a string is empty or not."
     },
     {
-      "challengechallengeTitle": "Area of various shapes (circle, rectangle, triangle)",
+      "challengeTitle": "Area of various shapes (circle, rectangle, triangle)",
       "challengeDescription": "Implement a function that calculates the area of a circle given its radius using an arrow function. Create a function that calculates the area of various shapes (circle, rectangle, triangle) based on user input."
     },
     {
-      "challengechallengeTitle": "Callback array function",
+      "challengeTitle": "Callback array function",
       "challengeDescription": "Write a function that takes an array and a callback function, and returns a new array after applying the callback to each element"
     },
     {
-      "challengechallengeTitle": "",
+      "challengeTitle": "",
       "challengeDescription": ""
     },
     {
-      "challengechallengeTitle": "",
+      "challengeTitle": "",
       "challengeDescription": ""
     },
     {
-      "challengechallengeTitle": "",
+      "challengeTitle": "",
       "challengeDescription": ""
     },
     {
       "challengeTitle": "DOM Manupulation Challenges",
-      "challengechallengeTitle": "Login form with validation",
+      "challengeTitle": "Login form with validation",
       "challengeDescription": "Create a form with input fields for name, email, and password. Implement a function that validates the form and displays appropriate error messages if the input is invalid."
     },
     {
-      "challengechallengeTitle": "Fetch data",
+      "challengeTitle": "Fetch data",
       "challengeDescription": "Write JavaScript code to fetch data from an API and display it on a webpage dynamically"
     },
     {
-      "challengechallengeTitle": "Interactive To-Do List",
+      "challengeTitle": "Interactive To-Do List",
       "challengeDescription": "Create an interactive to-do list with features like adding, removing, and marking tasks as completed. The to-do list should be updated dynamically on the webpage as tasks are added or marked completed."
     },
     {
-      "challengechallengeTitle": "Dark theme",
+      "challengeTitle": "Dark theme",
       "challengeDescription": "Implement a function to change the background color of a webpage every time a button is clicked"
     },
     {
-      "challengechallengeTitle": "Create and Append Elements",
+      "challengeTitle": "Create and Append Elements",
       "challengeDescription": "Write a function that creates an HTML button element, sets its text challengeDescription, and appends it to an existing div with a given id."
     },
     {
-      "challengechallengeTitle": "Toggle Visibility",
+      "challengeTitle": "Toggle Visibility",
       "challengeDescription": "Write a function that toggles the visibility of a div element when a button is clicked (show if hidden, hide if visible). "
     },
     {
-      "challengechallengeTitle": "Drag and Drop",
+      "challengeTitle": "Drag and Drop",
       "challengeDescription": "Implement drag and drop functionality for elements within a container using event listeners and DOM manipulation. Implement drag and drop functionality for elements within a container. Allow users to drag elements and drop them in different positions within the container."
     },
     {
-      "challengechallengeTitle": "Real-Time Chat Application",
+      "challengeTitle": "Real-Time Chat Application",
       "challengeDescription": "Build a real-time chat application using WebSockets or Firebase or other asynchronous techniques for instant messaging. Users should be able to send and receive messages in real-time without the need for manual page refresh."
     },
     {
-      "challengechallengeTitle": "Toggle Password Visibility",
+      "challengeTitle": "Toggle Password Visibility",
       "challengeDescription": "Create a form with an input field for a password. Add a checkbox that toggles the visibility of the password when checked/unchecked."
     },
     {
-      "challengechallengeTitle": "Image Gallery",
+      "challengeTitle": "Image Gallery",
       "challengeDescription": "Create an image gallery with a grid of thumbnail images. When a thumbnail is clicked, display the full-sized image in a modal popup."
     },
     {
-      "challengechallengeTitle": "Dynamic Table Creation",
+      "challengeTitle": "Dynamic Table Creation",
       "challengeDescription": "Write a function that creates an HTML table with a given number of rows and columns. Append the table to a specified element on the page."
     },
     {
-      "challengechallengeTitle": "Toggle Password Visibility",
+      "challengeTitle": "Toggle Password Visibility",
       "challengeDescription": "Create a form with an input field for a password. Add a checkbox that toggles the visibility of the password when checked/unchecked."
     },
     {
-      "challengechallengeTitle": "Toggle Password Visibility",
+      "challengeTitle": "Toggle Password Visibility",
       "challengeDescription": "Create a form with an input field for a password. Add a checkbox that toggles the visibility of the password when checked/unchecked."
     },
     {
-      "challengechallengeTitle": "Toggle Password Visibility",
+      "challengeTitle": "Toggle Password Visibility",
       "challengeDescription": "Create a form with an input field for a password. Add a checkbox that toggles the visibility of the password when checked/unchecked."
     },
     {
@@ -1083,117 +1083,117 @@
       "image": "./images/surfing-g130578680_1280.jpg",
       "projectLink": "./challenges/arrayJsChallenges.html",
       "projectGithubLink": "path/to/projectGithubLink",
-      "challengechallengeTitle": "Maximum and minimum",
+      "challengeTitle": "Maximum and minimum",
       "challengeDescription": "Given an array of integers, write a function to find the maximum and minimum elements in the array. Implement a function to find the second smallest element in an array. Find the second largest element in an array."
     },
     {
-      "challengechallengeTitle": "Remove duplicates",
+      "challengeTitle": "Remove duplicates",
       "challengeDescription": "Write a function to remove all duplicates from an array and return the modified array without changing the order of elements."
     },
     {
-      "challengechallengeTitle": "Return sorted even numbers",
+      "challengeTitle": "Return sorted even numbers",
       "challengeDescription": "Implement a function that takes an array of numbers and returns a new array with only the even numbers sorted in ascending order using the sort() method."
     },
     {
-      "challengechallengeTitle": "Comparing arrays",
+      "challengeTitle": "Comparing arrays",
       "challengeDescription": "Write a function that takes two arrays and returns true if they have at least one common element, otherwise return false. Write a function to check if two arrays are equal. Create a function to find the intersection of two arrays. Implement a function to find the union of two arrays."
     },
     {
-      "challengechallengeTitle": "Filter",
+      "challengeTitle": "Filter",
       "challengeDescription": "Implement a higher-order function that filters an array based on a given condition"
     },
     {
-      "challengechallengeTitle": "Remove falsy values",
+      "challengeTitle": "Remove falsy values",
       "challengeDescription": "Create a function to remove all falsy values (false, null, 0, parenthesis, undefined, and NaN) from an array."
     },
     {
-      "challengechallengeTitle": "Array Sum",
+      "challengeTitle": "Array Sum",
       "challengeDescription": "Write a function that takes an array of numbers and returns the sum of all the elements in the array."
     },
     {
-      "challengechallengeTitle": "Spread Operator Usage",
+      "challengeTitle": "Spread Operator Usage",
       "challengeDescription": "Write a function that takes three separate arrays of fruits and combines them into a single array using the spread operator."
     },
     {
-      "challengechallengeTitle": "Merge an arrays",
+      "challengeTitle": "Merge an arrays",
       "challengeDescription": "Implement a function to merge two sorted arrays into one sorted array."
     },
     {
-      "challengechallengeTitle": "Rotate an array",
+      "challengeTitle": "Rotate an array",
       "challengeDescription": "Create a function to rotate an array by a given number of positions."
     },
     {
-      "challengechallengeTitle": "Count the occurrences of each character",
+      "challengeTitle": "Count the occurrences of each character",
       "challengeDescription": "Create a function to count the occurrences of each character in a string. Implement a function to find the longest word in a sentence. Implement a function to find the first non-repeating character in a string."
     },
     {
-      "challengechallengeTitle": "All possible subsets",
+      "challengeTitle": "All possible subsets",
       "challengeDescription": "Write a function to generate all possible subsets of an array."
     },
     {
-      "challengechallengeTitle": "Shuffle the elements of an array",
+      "challengeTitle": "Shuffle the elements of an array",
       "challengeDescription": "Write a function to shuffle the elements of an array randomly."
     },
     {
-      "challengechallengeTitle": "Merge an arrays",
+      "challengeTitle": "Merge an arrays",
       "challengeDescription": "Implement a function to merge two sorted arrays into one sorted array."
     },
     {
       "challengeTitle": "Objects and Object-oriented programming",
       "challengeSubtopic": "Objects and Object-oriented programming",
-      "challengechallengeTitle": "Creating an objects",
+      "challengeTitle": "Creating an objects",
       "challengeDescription": "Create an object representing a person with properties like name, age, and address. Access and update properties"
     },
     {
-      "challengechallengeTitle": "Access to keys and values",
+      "challengeTitle": "Access to keys and values",
       "challengeDescription": "Use the Object.keys() method to get all keys of an object. Use the Object.values() method to get all values of an object."
     },
     {
-      "challengechallengeTitle": "Сalculate the area of a rectangle",
+      "challengeTitle": "Сalculate the area of a rectangle",
       "challengeDescription": "Create an object method to calculate the area of a rectangle."
     },
     {
-      "challengechallengeTitle": "Comparing arrays",
+      "challengeTitle": "Comparing arrays",
       "challengeDescription": "Write a function that takes two arrays and returns true if they have at least one common element, otherwise return false. Write a function to check if two arrays are equal. Create a function to find the intersection of two arrays. Implement a function to find the union of two arrays."
     },
     {
-      "challengechallengeTitle": "Filter",
+      "challengeTitle": "Filter",
       "challengeDescription": "Implement a higher-order function that filters an array based on a given condition"
     },
     {
-      "challengechallengeTitle": "Remove falsy values",
+      "challengeTitle": "Remove falsy values",
       "challengeDescription": "Create a function to remove all falsy values (false, null, 0, parenthesis, undefined, and NaN) from an array."
     },
     {
-      "challengechallengeTitle": "Array Sum",
+      "challengeTitle": "Array Sum",
       "challengeDescription": "Write a function that takes an array of numbers and returns the sum of all the elements in the array."
     },
     {
-      "challengechallengeTitle": "Spread Operator Usage",
+      "challengeTitle": "Spread Operator Usage",
       "challengeDescription": "Write a function that takes three separate arrays of fruits and combines them into a single array using the spread operator."
     },
     {
-      "challengechallengeTitle": "Merge an arrays",
+      "challengeTitle": "Merge an arrays",
       "challengeDescription": "Implement a function to merge two sorted arrays into one sorted array."
     },
     {
-      "challengechallengeTitle": "Rotate an array",
+      "challengeTitle": "Rotate an array",
       "challengeDescription": "Create a function to rotate an array by a given number of positions."
     },
     {
-      "challengechallengeTitle": "Count the occurrences of each character",
+      "challengeTitle": "Count the occurrences of each character",
       "challengeDescription": "Create a function to count the occurrences of each character in a string. Implement a function to find the longest word in a sentence. Implement a function to find the first non-repeating character in a string."
     },
     {
-      "challengechallengeTitle": "All possible subsets",
+      "challengeTitle": "All possible subsets",
       "challengeDescription": "Write a function to generate all possible subsets of an array."
     },
     {
-      "challengechallengeTitle": "Shuffle the elements of an array",
+      "challengeTitle": "Shuffle the elements of an array",
       "challengeDescription": "Write a function to shuffle the elements of an array randomly."
     },
     {
-      "challengechallengeTitle": "Merge an arrays",
+      "challengeTitle": "Merge an arrays",
       "challengeDescription": "Implement a function to merge two sorted arrays into one sorted array."
     },
     {
@@ -1297,7 +1297,7 @@
       "projectGithubLink": "path/to/projectGithubLink"
     },
     {
-      "challengeTitle": "Simple Countdown Timer",
+      "challengeTitle": "Simple Timer",
       "challengeDescription": "Write a function that displays a countdown timer on a webpage, updating every second until it reaches zero.",
       "image": "./images/surfing-g130578680_1280.jpg",
       "projectLink": "./challenges/startersJsChallenges.html",

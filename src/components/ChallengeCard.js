@@ -1,23 +1,26 @@
-export const ChallengeCard = ({ challenges }) => {
-  challenges && console.log(challenges);
+export const ChallengeCard = ({ challenge }) => {
+  challenge && console.log(challenge);
+
   return (
     <div className="challengeCard">
       <div className="max-w-xs p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <ul>
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Name of Challenge
+            {challenge.challengeTitle && challenge.challengeTitle}
           </h5>
           <li className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Discription: Short description of the challenge.
+            {challenge.challengeDescription &&
+              `Description: ${challenge.challengeDescription}`}
           </li>
           <li className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Difficulty: Easy
+            {challenge.level && `Difficulty: ${challenge.level}`}
           </li>
           <li className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Theme //challengeType: Basic challenges
+            {challenge.groupchallengeTitle &&
+              `Theme: ${challenge.groupchallengeTitle}`}
           </li>
           <li className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Theme //challengeType: Variables and Data Types
+            {challenge.challengeType && `Type: ${challenge.challengeType}`}
           </li>
         </ul>
         <a

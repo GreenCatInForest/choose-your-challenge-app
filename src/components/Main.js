@@ -5,7 +5,7 @@ import { Form } from "./Form";
 import { Challenges } from "./Challenges";
 
 export const Main = () => {
-  const [challenges, setChallenges] = useState("");
+  const [challenges, setChallenges] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <div>

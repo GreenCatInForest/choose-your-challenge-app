@@ -32,8 +32,10 @@ export const Challenges = ({
 
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
-      <article className="flex flex-row flex-wrap justify-center gap-4 my-6">
-        <ChallengeCard challenges={challenges} />
+      <article className="challenges flex flex-row flex-wrap justify-center gap-4 my-6">
+        {challenges.map((challenge) => (
+          <ChallengeCard key={challenge.challengeTitle} challenge={challenge} />
+        ))}
       </article>
       <article>
         <button className="">Display All</button>
