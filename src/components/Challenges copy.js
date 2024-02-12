@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
+// import { ChallengeCard } from "./ChallengeCard";
 import { ListChallenges } from "./ListChallenges";
-import { ChallengeCard } from "./ChallengeCard";
+import { ChallengesContainer } from "./ChallengesContainer";
 
 export const Challenges = ({
   searchQuery,
@@ -9,10 +10,9 @@ export const Challenges = ({
   setChallenges,
 }) => {
   const [numberOfChallenges, setNumberOfChallenges] = useState(0);
-  const [challengesPerPage, setChallengesPerPage] = useState(10);
+  const challengesPerPage = 10;
   const [numberOfPages, setNumberOfPages] = useState(1);
   const [pages, setPages] = useState([]);
-  const [currentPage, setCurrentPage] = useState(0);
 
   const challengeLists = (array, count) => {
     const itemsInArray = array.length;
@@ -66,41 +66,34 @@ export const Challenges = ({
       console.log("There is no number of pages. Try some another query please");
   }, [numberOfPages]);
 
+  // render div for each number of pages with 10 challenges each
+  // split challenges, divide by 10
   console.log(pages);
 
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
-      <nav className="navChallengesPages">
+      <section className="challenges flex flex-row flex-wrap justify-center gap-4 my-6">
         {pages.map((page, index) => (
-          <ul key={index}>
-            <li>
-              <button onClick={() => setCurrentPage(index)}>{index + 1}</button>
-            </li>
-          </ul>
-        ))}
-      </nav>
-      <div
-        className="challengesPages
-        flex
-        flex-col-sm
-        flex-row-md
-        flex-row-lg
-        flex-wrap
-        text-center
-        mx-auto"
-      >
-        {pages[currentPage] &&
-          pages[currentPage].map((challenge) => (
-            <div key={challenge.challengeTitle}>
-              <ChallengeCard
-                key={challenge.challengeTitle}
-                challenge={challenge}
-              />
+          <div>
+            <div className="flex flex-row flex-wrap justify-center gap-4">
+              PageContent
             </div>
-          ))}
-      </div>
-      <button className="">Display All</button>
-      <ListChallenges />
+            <button key={index}>{index + 1}</button>
+          </div>
+        ))}
+      </section>
+
+      {/* Render Challenges Cards  */}
+      {challenges.map((challenge) => (
+        <div key={challenge.challengeTitle}>
+          <ChallengeCard key={challenge.challengeTitle} challenge={challenge} />
+        </div>
+      ))}
+      <article>
+        <ChallengesContainer />
+        <button className="">Display All</button>
+        <ListChallenges />
+      </article>
     </div>
   );
 };
