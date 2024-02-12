@@ -14,10 +14,10 @@ export const Challenges = ({
     const regex = new RegExp(searchQuery, "gi");
     console.log(regex);
 
-    const matchedQueries = datas.challenges.map((data) =>
-      data.name.match(regex)
-    );
-    console.log(matchedQueries);
+    // const matchedQueries = datas.challenges.map((data) =>
+    //   data.name.match(regex)
+    // );
+    // matchedQueries ? console.log(matchedQueries) : console.log("zero");
   }
 
   return (
