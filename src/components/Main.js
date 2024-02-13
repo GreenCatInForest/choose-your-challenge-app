@@ -9,8 +9,8 @@ export const Main = () => {
   const [searchQuery, setSearchQuery] = useState("");
   return (
     <main>
-      <div className="features flex flex-col sm:flex-row  justify-center items-center first-line:items-center gap-3 text-center">
-        <h2 className="px-2 py-1 mx-1 text-white font-bold bg-blue-600 rounded dark:bg-blue-500 text-xl md:text-2xl lg:text-2xl">
+      <div className="features flex flex-col justify-center items-center first-line:items-center gap-3 text-center">
+        <h2 className="px-2 py-1 mx-2 text-white font-bold bg-blue-600 rounded dark:bg-blue-500 text-xl md:text-2xl lg:text-2xl">
           Features:
         </h2>
         <p>
@@ -29,9 +29,10 @@ export const Main = () => {
         </p>
         {/* <p>Learn JavaScript by doing</p> */}
       </div>
-      <ul className="flex flex-col sm:flex-row justify-center items-center gap-3">
-        <li>Basic Challenges</li>
-        <li>Algorithm Challenges</li>
+      <ul className="flex flex-col sm:flex-row justify-center items-center gap-3 mt-3">
+        <p>Learn JavaScript by doing!</p>
+        {/* <li>Basic Challenges</li>
+        <li>Algorithm Challenges</li> */}
       </ul>
       <Form searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
       <Challenges

@@ -4,8 +4,8 @@ import polygonMeshImg from "../assets/images/icons8-mesh-100.png";
 export const Header = () => {
   return (
     <div className="flex flex-col justify-center text-center gap-3 w-full">
-      <nav className="navbarHeader flex flex-col sm:flex-row justify-evenly items-center border-b-2 border-solid border-slate-200">
-        <div className="logo flex flex-row justify-center items-center gap-6">
+      <nav className="navbarHeader flex flex-col sm:flex-row justify-evenly items-center border-b-2 border-solid border-slate-200 gap-6">
+        <div className="logo flex flex-col sm:flex-row justify-center items-center gap-6">
           <img
             src={polygonMeshImg}
             alt="polygon Mesh Icon"
@@ -24,16 +24,14 @@ export const Header = () => {
         </div>
         <button
           type="button"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-6"
+          onClick={alert("Will be implemented soon!")}
         >
           Local Storage
         </button>
       </nav>
       <ul className="title my-6 text-center text-xl font-bold flex flex-col gap-6 leading-none tracking-tight text-gray-900 md:text-2xl lg:text-2xl  dark:text-white">
-        {/* <li className="flex flex-row justify-center items-center gap-6">
-          <h2 className="">Practice your JS skills now</h2>
-        </li> */}
-        <li>
+        <li className="leading-[2.5]">
           <h3>
             Pick up a new challenge for your{" "}
             <mark className="px-2 py-1 mx-1 text-white bg-blue-600 rounded dark:bg-blue-500">

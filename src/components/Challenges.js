@@ -69,7 +69,7 @@ export const Challenges = ({
 
   return (
     <div className="flex-col flex-wrap text-center w-11/12 mx-auto">
-      <nav className="navChallengesPages flex sm:flex-col md:flex-row text-center items-center justify-center gap-6">
+      <nav className="navChallengesPages flex sm:flex-col md:flex-row text-center flex-wrap items-center justify-center gap-6">
         <p className="px-2 py-1 mx-1 text-white font-bold bg-blue-600 rounded dark:bg-blue-500 text-xl md:text-2xl lg:text-2xl">
           Results:{" "}
           {pages.length > 0 ? (
@@ -81,7 +81,7 @@ export const Challenges = ({
           )}
         </p>
         {pages.map((page, index) => (
-          <ul key={index}>
+          <ul key={index} className="flex flex-row flex-wrap">
             <li>
               <button
                 className=" py-2 px-4 my-4 rounded-full  hover:shadow-md hover:shadow-slate-400  border-b-8 border-slate-600 border-opacity-20 hover:border-opacity-100 hover:border-slate-400"

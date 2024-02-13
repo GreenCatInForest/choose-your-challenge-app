@@ -37,8 +37,8 @@ export const Footer = () => {
   // challengeLists(testDatas, 10);
 
   return (
-    <div className="flex-col flex-wrap text-center w-full mx-auto bg-slate-300">
-      Footer
+    <div className="flex-col flex-wrap text-center w-full mx-auto bg-slate-300 py-3 mt-12">
+      YK 2024
     </div>
   );
 };
