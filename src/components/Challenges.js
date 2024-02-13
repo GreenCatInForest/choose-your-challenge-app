@@ -9,7 +9,7 @@ export const Challenges = ({
   setChallenges,
 }) => {
   const [numberOfChallenges, setNumberOfChallenges] = useState(0);
-  const [challengesPerPage, setChallengesPerPage] = useState(10);
+  const [challengesPerPage, setChallengesPerPage] = useState(9);
   const [numberOfPages, setNumberOfPages] = useState(1);
   const [pages, setPages] = useState([]);
   const [currentPage, setCurrentPage] = useState(0);
@@ -73,7 +73,7 @@ export const Challenges = ({
         <p className="px-2 py-1 mx-1 text-white font-bold bg-blue-600 rounded dark:bg-blue-500 text-xl md:text-2xl lg:text-2xl">
           Results:{" "}
           {pages.length > 0 ? (
-            pages.length + `pages`
+            pages.length + ` pages`
           ) : (
             <span className="text-base">
               Here will be your challenges. Please enter a search query!
@@ -95,17 +95,21 @@ export const Challenges = ({
       </nav>
       <div
         className="challengesPages
-        flex
-        flex-col-sm
-        flex-row-md
-        flex-row-lg
-        flex-wrap
+        w-11/12
+        h-11/12
+        grid
+        grid-cols-1
+        sm:grid-cols-3
+        gap-8
         text-center
         mx-auto"
       >
         {pages[currentPage] &&
           pages[currentPage].map((challenge) => (
-            <div key={challenge.challengeTitle}>
+            <div
+              key={challenge.challengeTitle}
+              className="overflow-y-auto max-h-[20em]"
+            >
               <ChallengeCard
                 key={challenge.challengeTitle}
                 challenge={challenge}
